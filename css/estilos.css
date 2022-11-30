@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "arabe";
+  src: url("../fuentes/harlowsi.ttf")format("truetype");
+
+}
+
+body {background-color: pink;
+background-image: url(../imagenes/varios.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 95% 5%;}
+
+header {background-color: gray;}
+header{border: 5px black solid;}
+header {display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;}
+.fotoprincipal {height: 50vh;
+width: 50vw;}
+nav {display: flex;
+justify-content: space-around;
+align-items: center;}
+a:hover {color:red;}
+
+
+section {display: flex;
+  align-items: center;}
+
+aside{display: flex;
+  justify-content: center;}
+
+
+footer{display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;}
+
+
+nav{background-color: ;}
+section {background-color: gray;}
+section {width: 100%;
+height: 50%;}
+   aside{background-color: gray;}
+
+
+header {width: 100%;
+height: 50%;}
+.redesF { width: 6vw;
+height: 6vh;}
+.redesI {width: 6vw;
+height: 6vh;}
+.redesT {width: 6vw;
+height: 6vh;}
+
+.logo { width: 10%;
+height: 10%;}
+
+
+.iconowhats {width: 5%;
+height: 6%;
+  position: fixed;
+  bottom: 7%;
+  right: 1%;
+  }
+.rojoletra {color: black;
+font-size: 300%;
+text-decoration: underline;}
+
+ .parrafo {color: pink;
+    text-decoration: underline;}
+.parrafoss {text-align:center;}
+
+
+
+.caja { width: 50%;
+height: 50%;
+
+}
+.fotito { width: 100%;
+height: 100%;}
+
+.tituloconta {font-family: 'Nerko One', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.rojoletra {font-family: "arabe"}
